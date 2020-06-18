@@ -1,6 +1,4 @@
 {
-    
-        "DATABASE_NAME": "inventory-dev-rrb",
-        "CLOUDANT_CONFIG":"{"apikey": "Ju1D-V_MVaDxng1uStgNhcP45f2xmza1hboQEeMyeYis","host": "9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix.cloudantnosqldb.appdomain.cloud","iam_apikey_description": "Auto-generated for key 06d2052a-2f65-4759-9ddf-ccbba6540f4a","iam_apikey_name": "ServiceCredentials01","iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager","iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/0f42478cb66d4ce0b11c9168b02c5690::serviceid:ServiceId-57fe41bc-5cf0-4ad8-96c1-18a42cf68da0","url": "https://9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix.cloudantnosqldb.appdomain.cloud" ,"username": "9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix"}"
-      
+    "DATABASE_NAME": "inventory-dev-rrb",
+  "CLOUDANT_CONFIG": "{\"apikey\":\"Ju1D-V_MVaDxng1uStgNhcP45f2xmza1hboQEeMyeYis\",\"host\":\"9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix.cloudantnosqldb.appdomain.cloud\",\"iam_apikey_description\":\"Auto-generated for key 06d2052a-2f65-4759-9ddf-ccbba6540f4a\",\"iam_apikey_name\":\"ServiceCredentials01\",\"iam_role_crn\":\"crn:v1:bluemix:public:iam::::serviceRole:Manager\",\"iam_serviceid_crn\":\"crn:v1:bluemix:public:iam-identity::a\/0f42478cb66d4ce0b11c9168b02c5690::serviceid:ServiceId-57fe41bc-5cf0-4ad8-96c1-18a42cf68da0\",\"url\":\"https:\/\/9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix.cloudantnosqldb.appdomain.cloud\",\"username\":\"9d265cd6-0dad-4dda-a5cd-634683d8e87f-bluemix\"}"
 }
