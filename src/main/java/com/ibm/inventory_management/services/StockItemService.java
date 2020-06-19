@@ -13,7 +13,8 @@ import com.ibm.inventory_management.config.CloudantConfig;
 import com.ibm.inventory_management.models.StockItem;
 
 @Service
-@Profile("!mock")
+//@Profile("!mock")
+@Primary
 public class StockItemService implements StockItemApi {
     private CloudantConfig config;
     private CloudantClient client;
