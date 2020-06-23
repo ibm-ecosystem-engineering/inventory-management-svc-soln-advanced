@@ -8,9 +8,16 @@ public class CloudantConfig {
     private String username;
     private String password;
     private String databaseName;
-
+    private String apikey;
+    
     public String getUrl() {
         return url;
+    }
+    public String getApikey() {
+        return apikey;
+    }
+    public void setApikey(String url) {
+        this.apikey = apikey;
     }
 
     public void setUrl(String url) {
@@ -66,6 +73,9 @@ public class CloudantConfig {
     }
 
     public String toString() {
-        return "[CloudantConfig: url=" + this.url + ", username=" + this.username + ", name=" + this.databaseName + "]";
+       return "[CloudantConfig: url=" + this.url + ", username=" + this.username + ", name=" + this.databaseName + "]";
+      
     }
-}
+   
+       
+    }
