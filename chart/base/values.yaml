@@ -5,7 +5,7 @@ global: {}
 
 replicaCount: 1
 logLevel: "INFO"
-cloudantBinding: "4865ca9c-2d45-40aa-a4a1-9402c1d63eb6-bluemix.cloudantnosqldb.appdomain.cloud"
+cloudantBinding: "cloudant-config"
 databaseName: "inventory-dev-rr"
 image:
   repository: replace
