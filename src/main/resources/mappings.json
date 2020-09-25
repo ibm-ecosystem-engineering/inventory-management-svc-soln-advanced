@@ -1,4 +1,4 @@
 {
-    "DATABASE_NAME": "inventory-dev-rr",
-    "CLOUDANT_CONFIG":"{\"apikey\": \"ssijT6a8-YM5j2PSofo0hP842teEdGuhDEtkxTO-wPAo\",\"host\": \"3eb7d265-a19c-4a64-95f3-351f7d911bfd-bluemix.cloudantnosqldb.appdomain.cloud\",\"password\": \"6d5bc712c80ce7be5ba83803e6be36fb33ff23da260596b8646528f067afc586\",\"port\": 443,\"url\": \"https://3eb7d265-a19c-4a64-95f3-351f7d911bfd-bluemix:6d5bc712c80ce7be5ba83803e6be36fb33ff23da260596b8646528f067afc586@3eb7d265-a19c-4a64-95f3-351f7d911bfd-bluemix.cloudantnosqldb.appdomain.cloud\",\"username\": \"3eb7d265-a19c-4a64-95f3-351f7d911bfd-bluemix\"}"
+    "DATABASE_NAME": "inventory-<your-openshift-namespce>",
+    "CLOUDANT_CONFIG":""
 }
