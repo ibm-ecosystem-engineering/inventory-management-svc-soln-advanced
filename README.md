@@ -53,6 +53,10 @@ To get started building this application locally, you can either run the applica
   * [Java 11 JDK from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
     or [Download a Liberty server package](https://developer.ibm.com/assets/wasdev/#filter/assetTypeFilters=PRODUCT)
     that contains the IBM JDK (Windows, Linux)
+ 
+ - Create your database on cloudant.
+ - Add the database and cloudant credentials to the `mappings.json` file.
+ - Edit the `values.yaml` file to add the database name to `databaseName` field.
     
 To build and run an application:
 1. `./gradlew build`
