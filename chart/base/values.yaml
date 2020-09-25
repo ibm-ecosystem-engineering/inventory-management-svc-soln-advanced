@@ -5,7 +5,7 @@ global: {}
 
 replicaCount: 1
 logLevel: "INFO"
-cloudantBinding: "cloudant-config"
+cloudantBinding: "cloudant-config01"
 databaseName: "inventory-dev-rr"
 image:
   repository: replace
