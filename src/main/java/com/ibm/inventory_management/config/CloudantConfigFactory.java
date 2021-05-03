@@ -21,7 +21,8 @@ public class CloudantConfigFactory {
                 ? System.getProperty("binding-sandbox-team-one-cloudant")
                 : loadCloudantMappingFromLocalDev().getCloudantConfig();*/
         return System.getProperty("CLOUDANT_CONFIG") != null
-                ? System.getProperty("CLOUDANT_CONFIG")
+                //? System.getProperty("CLOUDANT_CONFIG")
+                ? System.getEnv("CLOUDANT_CONFIG")
                 : loadCloudantMappingFromLocalDev().getCloudantConfig();
     }
 
@@ -36,7 +37,8 @@ public class CloudantConfigFactory {
 
     protected String loadDatabaseName() throws IOException {
         return System.getProperty("DATABASE_NAME") != null
-                ? System.getProperty("DATABASE_NAME")
+                //? System.getProperty("DATABASE_NAME")
+                ? System.getEnv("DATABASE_NAME")
                 : loadCloudantMappingFromLocalDev().getDatabaseName();
     }
 
