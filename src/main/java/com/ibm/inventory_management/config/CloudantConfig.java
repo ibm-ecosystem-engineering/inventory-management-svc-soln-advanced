@@ -16,7 +16,7 @@ public class CloudantConfig {
     public String getApikey() {
         return apikey;
     }
-    public void setApikey(String url) {
+    public void setApikey(String apikey) {
         this.apikey = apikey;
     }
 
