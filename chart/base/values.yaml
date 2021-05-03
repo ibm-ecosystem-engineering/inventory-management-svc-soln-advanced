@@ -5,8 +5,8 @@ global: {}
 
 replicaCount: 1
 logLevel: "INFO"
-cloudantBinding: "cloudant-config"
-databaseName: "inventory-<your-openshift-namespace>"
+cloudantBinding: "binding-sandbox-team-one-cloudant"
+databaseName: "inventory-dev-rr"
 image:
   repository: replace
   tag: replace
