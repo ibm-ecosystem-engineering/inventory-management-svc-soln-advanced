@@ -23,8 +23,8 @@ public class CloudantConfigFactory {
         /*return System.getEnv("CLOUDANT_CONFIG") != null
                 ? System.getEnv("CLOUDANT_CONFIG")
                 : loadCloudantMappingFromLocalDev().getCloudantConfig();*/
-        if (System.getEnv("CLOUDANT_CONFIG") != null){
-            return System.getEnv("CLOUDANT_CONFIG");
+        if (System.getenv("CLOUDANT_CONFIG") != null){
+            return System.getenv("CLOUDANT_CONFIG");
         }else
         {
             return loadCloudantMappingFromLocalDev().getCloudantConfig();
@@ -45,9 +45,9 @@ public class CloudantConfigFactory {
         /*return System.getEnv("DATABASE_NAME") != null
                 ? System.getEnv("DATABASE_NAME")
                 : loadCloudantMappingFromLocalDev().getDatabaseName();*/
-                if (System.getEnv("DATABASE_NAME") != null)
+                if (System.getenv("DATABASE_NAME") != null)
                 {
-                    return System.getEnv("DATABASE_NAME");
+                    return System.getenv("DATABASE_NAME");
                 }else
                 {
                     return loadCloudantMappingFromLocalDev().getDatabaseName();
