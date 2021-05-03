@@ -1,4 +1,4 @@
 {
-    "DATABASE_NAME": "inventory-<your-openshift-namespce>",
+    "DATABASE_NAME": "inventory-dev-rr",
     "CLOUDANT_CONFIG":""
 }
