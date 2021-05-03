@@ -17,9 +17,12 @@ public class CloudantConfigFactory {
     }
 
     protected String loadCloudantConfig() throws IOException {
-        return System.getProperty("CLOUDANT_CONFIG") != null
-                ? System.getProperty("CLOUDANT_CONFIG")
+        return System.getProperty("binding-sandbox-team-one-cloudant") != null
+                ? System.getProperty("binding-sandbox-team-one-cloudant")
                 : loadCloudantMappingFromLocalDev().getCloudantConfig();
+        /*return System.getProperty("CLOUDANT_CONFIG") != null
+                ? System.getProperty("CLOUDANT_CONFIG")
+                : loadCloudantMappingFromLocalDev().getCloudantConfig();*/
     }
 
     protected CloudantMapping loadCloudantMappingFromLocalDev() throws IOException {
